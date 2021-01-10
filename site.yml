@@ -1,0 +1,8 @@
+---
+- name: RHEL7 CIS Hardening
+  hosts: redhat_servers
+  ignore_errors: true
+  ignore_unreachable: true
+  roles:
+    - RHEL7-CIS
+  become: yes
