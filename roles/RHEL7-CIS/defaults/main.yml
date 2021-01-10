@@ -329,7 +329,7 @@ rhel7cis_time_synchronization: ntp
 rhel7cis_time_synchronization_services: ntpd
 
 rhel7cis_time_synchronization_servers:
-    - sgkgptsdcs02.keppelgroup.com
+    - ntp.ihispoc.com.sg
 
 # 3.4.2 | PATCH | Ensure /etc/hosts.allow is configured
 rhel7cis_host_allow:
